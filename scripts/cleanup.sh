@@ -4,7 +4,7 @@
 echo "Stopping and removing Docker containers..."
 docker-compose down
 
-# Удалите тома Docker (необязательно, закомментируйте, если не нужно)
+# Удаление тома Docker (необязательно, закомментируйте, если не нужно)
 echo "Removing Docker volumes..."
 docker volume rm simple-docker-project_postgres_data
 
